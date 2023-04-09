@@ -1,0 +1,41 @@
+{
+    "name": "jsrsasign-addon-ct",
+    "version": "0.9.1",
+    "description": "jsrsasign add-on for certificate extension and OIDs of Certificate Transparency",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kjur/jsrsasign-addon-ct.git"
+    },
+    "keywords": [
+        "jsrsasign",
+	"transparency",
+        "oid"
+    ],
+    "author": "Kenji Urushima",
+    "homepage": "https://github.com/kjur/jsrsasign-addon-ct/",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kjur/jsrsasign-addon-ct/issues"
+    },
+    "dependencies": {
+        "jsrsasign": ">=10.7.0"
+    },
+    "devDependencies": {
+        "mocha": "*"
+    },
+    "funding": "https://github.com/kjur/jsrsasign#donations",
+    "badges": {
+        "list": [
+            "githubsponsors",
+            "crypto"
+        ],
+        "config": {
+            "githubSponsorsUsername": "kjur",
+            "cryptoURL": "https://github.com/kjur/jsrsasign#cryptocurrency"
+        }
+    }
+}
